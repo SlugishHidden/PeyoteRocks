@@ -169,3 +169,18 @@ footer{
  iframe:focus {
     outline: invert;
   }
+.subtitulo{
+    display: inline-flexbox;
+    width: 400px;
+    height: 100px;
+    padding: 0px;
+    border: 0px solid rgb(193, 193, 193);
+    text-align: center;
+    margin: 10px auto;
+    background-color: #4e4e4e;
+
+     /*sup izq, sup der, inf der, inf izq*/
+    
+ 
+
+  }

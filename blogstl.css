@@ -1,0 +1,159 @@
+#cajaformulario{
+    float: left;
+    padding: 20px;
+   
+    outline-color: #f8f8f8;
+    outline-style: dotted;
+    outline-width: 1px;
+    font-family: tabuti;
+    }
+    #cajadatos{
+    float: left;
+    width: 60%;
+    margin-left: 20px;
+    padding: 20px;
+    outline-style: dashed;
+    outline-color: #ccc;
+    outline-offset: 10px;
+
+    }
+    #clave, #texto{
+    width: 200px;
+    }
+    #cajadatos > div{
+    padding: 5px;
+    border-bottom: 1px solid #999999;
+    }
+    
+    input[type=text], select {
+        width: 100%;
+        padding: 12px 20px;
+        margin: 8px 0;
+        display: inline-block;
+        border: 1px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+    input[type=submit] {
+        width: 100%;
+        background-color: #4DAFF6;
+        color: white;
+        padding: 14px 20px;
+        margin: 8px 0;
+        border: none;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    input[type=submit]:hover {
+        background-color: #4465FB;
+    }
+    div {
+        border-radius: 5px;
+        background-color: #f2f2f2;
+        padding: 20px;
+    }
+
+    body{
+        background-color: rgb(255, 255, 255);
+    }
+    
+    @font-face {
+    font-family: tabuti;
+    src: url(multipeyote/tabuti/Tabuti.ttf);
+    }
+    h1{
+        font-family:tabuti ;
+        text-align:center;
+    }
+    h2{
+        font-family:tabuti ;
+    }
+    
+    /*BARRA DE NAVEGACION */
+    #nav ul{ 
+        list-style-type: none; 
+        text-align: center; 
+    } 
+    
+    #nav li{ 
+        display: inline; 
+        text-align: center; 
+        margin: 0 10px 0 0; 
+        font-family:tabuti ;
+        font-size: 25px;
+    } 
+    
+    #navegador li a { 
+        padding: 2px 7px 2px 7px; 
+        color: #666; 
+        background-color: #ffffff; 
+        border: 1px solid #f8f8f8; 
+        text-decoration: none; 
+    } 
+    
+    #navegador li a:hover{ 
+        background-color: #fafafa; 
+        color: #d5d5d5; 
+    }
+    
+    #tabnav{ 
+        border: 1px solid rgb(255, 255, 255); 
+        background-color: #ffffff;
+        margin-left: auto; 
+        margin-right: auto; 
+        width: 100%; 
+    }
+    
+    #tabnav td{
+        vertical-align: middle;
+    }
+    
+ 
+    
+    /*CARRUSEL*/
+    
+    
+  
+    
+   
+
+    
+   
+    
+    /*SYUDA Y COMENTARIOS*/
+    #aytab{
+        margin-left: auto; 
+        margin-right: auto; 
+        width: 97%; 
+        
+    }
+    
+    #aytab td{
+        width: 25%;
+        text-align: center;
+        font-family: tabuti;
+        font-size: 25px;
+        color: #d6d6d6;
+    }
+    
+    #aytab a{
+        text-decoration: none;
+        color: #d6d6d6;
+    }
+    
+    #aytab img{
+        width: 30%;
+    }
+    
+    #dyuda{
+        background-color: #000000;
+    }
+    #tabnav{
+        position: fixed;
+        top: 0px;
+    }
+    footer{
+        background-color: #ffffff;
+        color: #d6d6d6;
+    }
+ 

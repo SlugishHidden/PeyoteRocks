@@ -92,7 +92,39 @@ h2{
     height: 100px;
 }
 
-
+@media screen and (max-width: 600px) {
+    #cuerpo{
+        display: block;
+        width: 90%;
+        background-color: rgb(255, 255, 255);
+    
+        margin-top: 5%;
+        margin-left: 5%;
+        margin-right: auto;
+        
+        
+    }
+    #cuerpo p{
+        margin-left: 5%;
+        margin-right: 5%;
+        text-align: justify;
+        font-size: 19px;
+    }
+    #cuerpo h3{
+        margin-left: 5%;
+    }
+    #margencueropo{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    #cuerpo input{
+        width: 80%;
+    }como
+    #como{
+        width: 80%;
+        height: 80%;
+    }
+}
 
 /*SYUDA Y COMENTARIOS*/
 #aytab{

@@ -2,11 +2,6 @@ body{
     background-color: rgb(238, 238, 238);
 }
 
-footer{
-    position: relative;
-    bottom: 1px;
-}
-
 @font-face {
 font-family: tabuti;
 src: url(multipeyote/tabuti/Tabuti.ttf);
@@ -58,24 +53,21 @@ h2{
     vertical-align: middle;
 }
 
-
 /*-----Cuerpo-----*/
 #cuerpo{
     display: block;
-    width: 70%;
+    width: 75%;
     background-color: rgb(255, 255, 255);
 
     margin-top: 5px;
     margin-left: auto;
     margin-right: auto;
     
-    
 }
 #cuerpo p{
     margin-left: 5px;
     margin-right: 5px;
     text-align: justify;
-    font-size: 19px;
 }
 #cuerpo h3{
     margin-left: 5px;
@@ -84,46 +76,35 @@ h2{
     margin-left: 50px;
     margin-right: 50px;
 }
-#cuerpo input{
-    width: 100%;
-}como
-#como{
-    width: 100%;
-    height: 100px;
+
+/*-----barralateral-----
+#barralateral{
+    display: block;
+    border: 1px solid black;
+    width: 25%;
+    background-color: rgb(255, 255, 255);
+   
+    display: inline-block;
+    position: absolute;
+    right: 10px;
+    margin-top: 5px;
+    margin-right: 20px;
 }
-@media screen and (max-width: 700px) {
-    #cuerpo{
-        display: block;
-        width: 70%;
-        background-color: rgb(255, 255, 255);
-    
-        margin-top: 5px;
-        margin-left: auto;
-        margin-right: auto;
-        
-        
-    }
-    #cuerpo p{
-        margin-left: 10%;
-        margin-right: 10%;
-        text-align: justify;
-        font-size: 19px;
-    }
-    #cuerpo h3{
-        margin-left: 10%;
-    }
-    #margencueropo{
-        margin-left: 10%;
-        margin-right: 10%;
-    }
-    #cuerpo input{
-        width: 60%;
-    }como
-    #como{
-        width: 60%;
-        height: 60px;
-    }
+#barralateral p {
+    margin-left: 5px;
+    margin-right: 5px;
 }
+#barralateral h3 {
+    margin-left: 5px;
+}
+*/
+
+
+
+
+
+
+
 
 
 
